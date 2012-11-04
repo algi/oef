@@ -15,6 +15,17 @@
 		56F96D6316470C9600B0BBED /* ObjectiveEnterpriseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F96D4516470C9600B0BBED /* ObjectiveEnterpriseFramework.framework */; };
 		56F96D6916470C9600B0BBED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56F96D6716470C9600B0BBED /* InfoPlist.strings */; };
 		56F96D6C16470C9600B0BBED /* ObjectiveEnterpriseFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D6B16470C9600B0BBED /* ObjectiveEnterpriseFrameworkTests.m */; };
+		56F96D7916470D4300B0BBED /* OEFEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F96D7716470D4300B0BBED /* OEFEnvironment.h */; };
+		56F96D7A16470D4300B0BBED /* OEFEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D7816470D4300B0BBED /* OEFEnvironment.m */; };
+		56F96D7D16470DA100B0BBED /* OEFServiceDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F96D7B16470DA100B0BBED /* OEFServiceDispatcher.h */; };
+		56F96D7E16470DA100B0BBED /* OEFServiceDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D7C16470DA100B0BBED /* OEFServiceDispatcher.m */; };
+		56F96D8116470E1700B0BBED /* OEFApplicationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F96D7F16470E1700B0BBED /* OEFApplicationContext.h */; };
+		56F96D8216470E1700B0BBED /* OEFApplicationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D8016470E1700B0BBED /* OEFApplicationContext.m */; };
+		56F96D8716470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F96D8516470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.h */; };
+		56F96D8816470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D8616470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.m */; };
+		56F96D8C16470FEA00B0BBED /* OEFServiceDispatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D8B16470FEA00B0BBED /* OEFServiceDispatcherTest.m */; };
+		56F96D911647108100B0BBED /* OEFArithmeticService.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D901647108100B0BBED /* OEFArithmeticService.m */; };
+		56F96D94164710BD00B0BBED /* OEFLogInvocationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D93164710BD00B0BBED /* OEFLogInvocationObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,21 @@
 		56F96D6816470C9600B0BBED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56F96D6A16470C9600B0BBED /* ObjectiveEnterpriseFrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveEnterpriseFrameworkTests.h; sourceTree = "<group>"; };
 		56F96D6B16470C9600B0BBED /* ObjectiveEnterpriseFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveEnterpriseFrameworkTests.m; sourceTree = "<group>"; };
+		56F96D7716470D4300B0BBED /* OEFEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEFEnvironment.h; sourceTree = "<group>"; };
+		56F96D7816470D4300B0BBED /* OEFEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEFEnvironment.m; sourceTree = "<group>"; };
+		56F96D7B16470DA100B0BBED /* OEFServiceDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEFServiceDispatcher.h; sourceTree = "<group>"; };
+		56F96D7C16470DA100B0BBED /* OEFServiceDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEFServiceDispatcher.m; sourceTree = "<group>"; };
+		56F96D7F16470E1700B0BBED /* OEFApplicationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEFApplicationContext.h; sourceTree = "<group>"; };
+		56F96D8016470E1700B0BBED /* OEFApplicationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEFApplicationContext.m; sourceTree = "<group>"; };
+		56F96D8316470E4700B0BBED /* OEFInvocationObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OEFInvocationObserver.h; sourceTree = "<group>"; };
+		56F96D8516470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OEFEnvironment+OEFDatabaseEnvironment.h"; sourceTree = "<group>"; };
+		56F96D8616470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OEFEnvironment+OEFDatabaseEnvironment.m"; sourceTree = "<group>"; };
+		56F96D8A16470FEA00B0BBED /* OEFServiceDispatcherTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEFServiceDispatcherTest.h; sourceTree = "<group>"; };
+		56F96D8B16470FEA00B0BBED /* OEFServiceDispatcherTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEFServiceDispatcherTest.m; sourceTree = "<group>"; };
+		56F96D8F1647108100B0BBED /* OEFArithmeticService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEFArithmeticService.h; sourceTree = "<group>"; };
+		56F96D901647108100B0BBED /* OEFArithmeticService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEFArithmeticService.m; sourceTree = "<group>"; };
+		56F96D92164710BD00B0BBED /* OEFLogInvocationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEFLogInvocationObserver.h; sourceTree = "<group>"; };
+		56F96D93164710BD00B0BBED /* OEFLogInvocationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEFLogInvocationObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +136,8 @@
 		56F96D4E16470C9600B0BBED /* ObjectiveEnterpriseFramework */ = {
 			isa = PBXGroup;
 			children = (
+				56F96D7616470D2000B0BBED /* Foundation */,
+				56F96D7516470D1700B0BBED /* Database */,
 				56F96D5516470C9600B0BBED /* ObjectiveEnterpriseFramework.h */,
 				56F96D5616470C9600B0BBED /* ObjectiveEnterpriseFramework.m */,
 				56F96D4F16470C9600B0BBED /* Supporting Files */,
@@ -130,6 +158,7 @@
 		56F96D6416470C9600B0BBED /* ObjectiveEnterpriseFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
+				56F96D8916470FA300B0BBED /* Foundation tests */,
 				56F96D6A16470C9600B0BBED /* ObjectiveEnterpriseFrameworkTests.h */,
 				56F96D6B16470C9600B0BBED /* ObjectiveEnterpriseFrameworkTests.m */,
 				56F96D6516470C9600B0BBED /* Supporting Files */,
@@ -146,6 +175,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		56F96D7516470D1700B0BBED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				56F96D8516470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.h */,
+				56F96D8616470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		56F96D7616470D2000B0BBED /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				56F96D7F16470E1700B0BBED /* OEFApplicationContext.h */,
+				56F96D8016470E1700B0BBED /* OEFApplicationContext.m */,
+				56F96D7716470D4300B0BBED /* OEFEnvironment.h */,
+				56F96D7816470D4300B0BBED /* OEFEnvironment.m */,
+				56F96D7B16470DA100B0BBED /* OEFServiceDispatcher.h */,
+				56F96D7C16470DA100B0BBED /* OEFServiceDispatcher.m */,
+				56F96D8316470E4700B0BBED /* OEFInvocationObserver.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		56F96D8916470FA300B0BBED /* Foundation tests */ = {
+			isa = PBXGroup;
+			children = (
+				56F96D8F1647108100B0BBED /* OEFArithmeticService.h */,
+				56F96D901647108100B0BBED /* OEFArithmeticService.m */,
+				56F96D92164710BD00B0BBED /* OEFLogInvocationObserver.h */,
+				56F96D93164710BD00B0BBED /* OEFLogInvocationObserver.m */,
+				56F96D8A16470FEA00B0BBED /* OEFServiceDispatcherTest.h */,
+				56F96D8B16470FEA00B0BBED /* OEFServiceDispatcherTest.m */,
+			);
+			name = "Foundation tests";
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +219,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F96D7916470D4300B0BBED /* OEFEnvironment.h in Headers */,
+				56F96D7D16470DA100B0BBED /* OEFServiceDispatcher.h in Headers */,
+				56F96D8116470E1700B0BBED /* OEFApplicationContext.h in Headers */,
+				56F96D8716470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +334,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				56F96D5716470C9600B0BBED /* ObjectiveEnterpriseFramework.m in Sources */,
+				56F96D7A16470D4300B0BBED /* OEFEnvironment.m in Sources */,
+				56F96D7E16470DA100B0BBED /* OEFServiceDispatcher.m in Sources */,
+				56F96D8216470E1700B0BBED /* OEFApplicationContext.m in Sources */,
+				56F96D8816470F5700B0BBED /* OEFEnvironment+OEFDatabaseEnvironment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +346,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56F96D6C16470C9600B0BBED /* ObjectiveEnterpriseFrameworkTests.m in Sources */,
+				56F96D8C16470FEA00B0BBED /* OEFServiceDispatcherTest.m in Sources */,
+				56F96D911647108100B0BBED /* OEFArithmeticService.m in Sources */,
+				56F96D94164710BD00B0BBED /* OEFLogInvocationObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,6 +26,8 @@
 		56F96D8C16470FEA00B0BBED /* OEFServiceDispatcherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D8B16470FEA00B0BBED /* OEFServiceDispatcherTest.m */; };
 		56F96D911647108100B0BBED /* OEFArithmeticService.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D901647108100B0BBED /* OEFArithmeticService.m */; };
 		56F96D94164710BD00B0BBED /* OEFLogInvocationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F96D93164710BD00B0BBED /* OEFLogInvocationObserver.m */; };
+		56F96D9E1647C1E600B0BBED /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F96D9D1647C1E600B0BBED /* CouchCocoa.framework */; };
+		56F96DA11647C3AE00B0BBED /* CouchCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56F96D9D1647C1E600B0BBED /* CouchCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,19 @@
 			remoteInfo = ObjectiveEnterpriseFramework;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56F96DA01647C3A000B0BBED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56F96DA11647C3AE00B0BBED /* CouchCocoa.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		56F96D4516470C9600B0BBED /* ObjectiveEnterpriseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectiveEnterpriseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +85,7 @@
 		56F96D901647108100B0BBED /* OEFArithmeticService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEFArithmeticService.m; sourceTree = "<group>"; };
 		56F96D92164710BD00B0BBED /* OEFLogInvocationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEFLogInvocationObserver.h; sourceTree = "<group>"; };
 		56F96D93164710BD00B0BBED /* OEFLogInvocationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEFLogInvocationObserver.m; sourceTree = "<group>"; };
+		56F96D9D1647C1E600B0BBED /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchCocoa.framework; path = Vendor/CouchCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56F96D4916470C9600B0BBED /* Cocoa.framework in Frameworks */,
+				56F96D9E1647C1E600B0BBED /* CouchCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				56F96D4816470C9600B0BBED /* Cocoa.framework */,
+				56F96D9D1647C1E600B0BBED /* CouchCocoa.framework */,
 				56F96D5E16470C9600B0BBED /* SenTestingKit.framework */,
 				56F96D4A16470C9600B0BBED /* Other Frameworks */,
 			);
@@ -237,6 +255,7 @@
 				56F96D4116470C9600B0BBED /* Frameworks */,
 				56F96D4216470C9600B0BBED /* Headers */,
 				56F96D4316470C9600B0BBED /* Resources */,
+				56F96DA01647C3A000B0BBED /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -441,6 +460,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjectiveEnterpriseFramework/ObjectiveEnterpriseFramework-Prefix.pch";
@@ -456,6 +479,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor\"",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjectiveEnterpriseFramework/ObjectiveEnterpriseFramework-Prefix.pch";
